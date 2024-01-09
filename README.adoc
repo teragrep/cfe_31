@@ -1,0 +1,52 @@
+# CFE-31
+
+// Add a short description of your project. Tell what your project does and what it's used for. 
+
+This is an integration utility for scraping data from Git and sending it to https://github.com/teragrep/cfe_18[CFE-18] written in Java 11.
+Uses Gson for JSON scraping and OkHttp for sending the data and parsing responses.
+
+## Features
+
+// List your project's features
+* Scrape data from predefined data structures
+* Convert data to POJOs
+* Send data to CFE-18
+
+## Documentation
+
+See internal documentation (for now)
+
+## Limitations
+
+// If your project has limitations, please list them. Otherwise remove this section.
+* Limited to the predetermined data structure
+* Does not check for existing duplicates on CFE-18, relies on CFE-18 to handle duplicates
+
+## How to [compile/use/implement]
+.Compile
+[,shell]
+----
+mvn clean compile
+----
+// add instructions how people can start to use your project 
+
+## Contributing
+
+// Change the repository name in the issues link to match with your project's name
+
+You can involve yourself with our project by https://github.com/teragrep/cfe_31/issues/new/choose[opening an issue] or submitting a pull request. 
+
+Contribution requirements:
+
+. *All changes must be accompanied by a new or changed test.* If you think testing is not required in your pull request, include a sufficient explanation as why you think so.
+. Security checks must pass
+. Pull requests must align with the principles and http://www.extremeprogramming.org/values.html[values] of extreme programming.
+. Pull requests must follow the principles of Object Thinking and Elegant Objects (EO).
+
+Read more in our https://github.com/teragrep/teragrep/blob/main/contributing.adoc[Contributing Guideline].
+
+### Contributor License Agreement
+
+Contributors must sign https://github.com/teragrep/teragrep/blob/main/cla.adoc[Teragrep Contributor License Agreement] before a pull request is accepted to organization's repositories. 
+
+You need to submit the CLA only once. After submitting the CLA you can contribute to all Teragrep's repositories. 
