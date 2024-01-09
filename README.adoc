@@ -22,8 +22,7 @@ See internal documentation (for now)
 * Limited to the predetermined data structure
 * Does not check for existing duplicates on CFE-18, relies on CFE-18 to handle duplicates
 
-## How to [compile/use/implement]
-.Compile
+## How to compile
 [,shell]
 ----
 mvn clean compile
